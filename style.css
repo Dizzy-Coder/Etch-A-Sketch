@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(49, 17, 33);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 216, 88);
+}
+
+button, input{
+    font-size: 15px;
+}
+
+button{
+    background-color: rgb(100, 68, 0);
+    border-color: rgb(100, 68, 0);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(255, 216, 88);
+    border-color: rgb(255, 216, 88);
+    color: black;
+}
+
+.canvas{
+    height: 530px;
+    width: 530px;
+    border: rgb(255, 216, 88) solid 3px;
+    background-color: rgb(100, 68, 0);
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#clr{
+    width: 100px;
+}
