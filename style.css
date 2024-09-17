@@ -42,12 +42,14 @@ p{
     flex-wrap: wrap;
     position: relative;
 }
+
 .buttons{
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
+
 #clr{
     width: 100px;
 }
