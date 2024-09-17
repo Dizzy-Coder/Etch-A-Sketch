@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function(){
             let div = document.createElement("div")
             div.style.width= `${box_size}px`;
             div.style.height = `${box_size}px`;
-            div.style.backgroundColor = "grey";
             div.style.boxSizing = "border-box";
             canvas.appendChild(div)
 
